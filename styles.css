@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(rgb(157, 214, 157), pink);
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.list-tasks {
+    position: absolute;
+    top: 100%;
+}
