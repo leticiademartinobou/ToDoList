@@ -38,7 +38,7 @@ function removeTask() {
     const remove = document.querySelector('#tareaInput').value;
     taskList.pop(remove);
     ul.innerHTML = "";
-    for (j = 0; j < taskList.lenght; j++) {
+    for (let j = 0; j < taskList.lenght; j++) {
         console.log(taskList[j]);
         const removeItem = document.createElement("li");
         removeItem.innerHTML =  `
@@ -64,7 +64,7 @@ function orderTask() {
         }
     })
     ul.innerHTML = "";
-    for (g = 0; g < taskList.lenght; g++) {
+    for (let g = 0; g < taskList.lenght; g++) {
         console.log(taskList[g]);
         const orderItem = document.createElement("li");
         orderItem.innerHTML =  `
